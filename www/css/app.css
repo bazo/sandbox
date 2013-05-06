@@ -1,0 +1,12 @@
+/* 
+    Document   : app
+    Created on : 6.5.2013, 18:21:06
+    Author     : Martin Bažík <martin@bazo.sk>
+    Description:
+        Main application css file
+*/
+
+root { 
+    display: block;
+}
+
