@@ -1,7 +1,10 @@
-vendor
-
 !.gitignore
 !.htaccess
 !web.config
+
+vendor
 app/config/config.local.neon
+app/config/environment
+app/config/debug
 nbproject
+www/vendor

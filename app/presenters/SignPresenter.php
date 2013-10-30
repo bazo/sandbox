@@ -2,16 +2,15 @@
 
 namespace App;
 
-use Nette,
-	Model;
-
+use Nette;
 
 /**
  * Sign in/out presenters.
+ * 
+ * @author Martin Bažík <martin@bazo.sk>
  */
 class SignPresenter extends BasePresenter
 {
-
 
 	/**
 	 * Sign-in form factory.
@@ -21,10 +20,10 @@ class SignPresenter extends BasePresenter
 	{
 		$form = new Nette\Application\UI\Form;
 		$form->addText('username', 'Username:')
-			->setRequired('Please enter your username.');
+				->setRequired('Please enter your username.');
 
 		$form->addPassword('password', 'Password:')
-			->setRequired('Please enter your password.');
+				->setRequired('Please enter your password.');
 
 		$form->addCheckbox('remember', 'Keep me signed in');
 
@@ -34,7 +33,6 @@ class SignPresenter extends BasePresenter
 		$form->onSuccess[] = $this->signInFormSucceeded;
 		return $form;
 	}
-
 
 
 	public function signInFormSucceeded($form)
@@ -50,12 +48,10 @@ class SignPresenter extends BasePresenter
 		try {
 			$this->getUser()->login($values->username, $values->password);
 			$this->redirect('Homepage:');
-			
 		} catch (Nette\Security\AuthenticationException $e) {
 			$form->addError($e->getMessage());
 		}
 	}
-
 
 
 	public function actionOut()
@@ -65,4 +61,6 @@ class SignPresenter extends BasePresenter
 		$this->redirect('in');
 	}
 
+
 }
+

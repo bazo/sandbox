@@ -2,13 +2,14 @@
 
 namespace App;
 
-use Nette,
-	Model,
-	Nette\Diagnostics\Debugger;
+use Nette;
+use Nette\Diagnostics\Debugger;
 
 
 /**
  * Error presenter.
+ * 
+ * @author Martin Bažík <martin@bazo.sk>
  */
 class ErrorPresenter extends BasePresenter
 {

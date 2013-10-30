@@ -4,8 +4,10 @@
 	"require": {
 		"php": ">= 5.4.0",
 		"nette/nette": "@dev",
-		"symfony/console": "@dev",
-		"kdyby/bootstrap-form-renderer": "@dev"
+		"bazo/nette-console-extension": "@dev",
+		"bazo/nette-monolog-extension": "@dev",
+		"bazo/nette-mediator-extension": "@dev",
+		"ircmaxell/password-compat": "@dev"
 	},
 	"require-dev": {
 		"nette/tester": "@dev"

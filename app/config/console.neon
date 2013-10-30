@@ -1,22 +1,7 @@
 services:
-	#commands
-	deleteCache:
-		class: Console\Command\DeleteCache
-		tags: [consoleCommand]
-
+	#console.commands
 	install:
 		class: Console\Command\Install
-		tags: [consoleCommand]
+		tags: [console.command]
 
-	#helpers
-	dialog:
-		class: \Symfony\Component\Console\Helper\DialogHelper
-		tags: [consoleHelper]
-
-	progress:
-		class: \Symfony\Component\Console\Helper\ProgressHelper
-		tags: [consoleHelper]
-
-	containerHelper:
-		class: \ContainerHelper(@container)
-		tags: [consoleHelper]
+	

@@ -5,28 +5,26 @@
 # http://nette.org/security-warning
 #
 parameters:
+	app:
+		name: sandbox
+	
 
 php:
-	date.timezone: Europe/Prague
+	date.timezone: Europe/Bratislava
+	# session.save_path: "%tempDir%/sessions"
 	# zlib.output_compression: yes
 
 nette:
+	session:
+		autoStart: smart
+		expiration: '+365 days'
+
 	application:
 		errorPresenter: Error
 		mapping:
 			*: App\*Module\*Presenter
 
-	session:
-		expiration: 14 days
-
-
-services:
-	- Model\UserManager
-	- App\RouterFactory
-	router: @App\RouterFactory::createRouter
-
-
-factories:
-
 includes:
+	- services.neon
+	- extensions.neon
 	- console.neon

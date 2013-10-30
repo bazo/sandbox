@@ -3,20 +3,247 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5298f5d53d6ecb445d8d35c5521165e8",
+    "hash": "0b933fa4f78c78d29524a9e547fb2777",
     "packages": [
+        {
+            "name": "bazo/nette-console-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazo/nette-console-extension.git",
+                "reference": "50b9805eff326d77b8b68758572d0b24b40dccdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazo/nette-console-extension/zipball/50b9805eff326d77b8b68758572d0b24b40dccdc",
+                "reference": "50b9805eff326d77b8b68758572d0b24b40dccdc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0",
+                "symfony/console": "@dev"
+            },
+            "type": "nette-addon",
+            "autoload": {
+                "psr-0": {
+                    "Bazo\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Martin Bažík",
+                    "email": "martin@bazo.sk",
+                    "homepage": "http://bazo.sk"
+                }
+            ],
+            "description": "Nette console compiler extension",
+            "homepage": "https://github.com/bazo/nette-console-extension",
+            "keywords": [
+                "console",
+                "extension",
+                "nette"
+            ],
+            "time": "2013-10-15 20:45:36"
+        },
+        {
+            "name": "bazo/nette-mediator-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazo/nette-mediator-extension.git",
+                "reference": "1ea3ab012d1ad45163e28865bc0143b13e15ab77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazo/nette-mediator-extension/zipball/1ea3ab012d1ad45163e28865bc0143b13e15ab77",
+                "reference": "1ea3ab012d1ad45163e28865bc0143b13e15ab77",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0",
+                "symfony/event-dispatcher": "@dev"
+            },
+            "type": "nette-addon",
+            "autoload": {
+                "psr-0": {
+                    "Bazo\\Mediator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Martin Bažík",
+                    "email": "martin@bazo.sk",
+                    "homepage": "http://bazo.sk"
+                }
+            ],
+            "description": "Nette mediator compiler extension",
+            "homepage": "https://github.com/bazo/nette-mediator-extension",
+            "keywords": [
+                "event dispatcher",
+                "events",
+                "extension",
+                "mediator",
+                "nette"
+            ],
+            "time": "2013-10-18 11:31:22"
+        },
+        {
+            "name": "bazo/nette-monolog-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazo/nette-monolog-extension.git",
+                "reference": "b18f804881155812efbe55a54591495714dad262"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazo/nette-monolog-extension/zipball/b18f804881155812efbe55a54591495714dad262",
+                "reference": "b18f804881155812efbe55a54591495714dad262",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "@dev",
+                "php": ">= 5.4.0"
+            },
+            "type": "nette-addon",
+            "autoload": {
+                "psr-0": {
+                    "Bazo\\Monolog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Martin Bažík",
+                    "email": "martin@bazo.sk",
+                    "homepage": "http://bazo.sk"
+                }
+            ],
+            "description": "Nette monolog compiler extension",
+            "homepage": "https://github.com/bazo/nette-monolog-extension",
+            "keywords": [
+                "extension",
+                "logging",
+                "monolog",
+                "nette"
+            ],
+            "time": "2013-10-18 14:17:39"
+        },
+        {
+            "name": "ircmaxell/password-compat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "1f482f79b9c336b1f658eb08d7bbf2b9901d9aee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/1f482f79b9c336b1f658eb08d7bbf2b9901d9aee",
+                "reference": "1f482f79b9c336b1f658eb08d7bbf2b9901d9aee",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/password.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
+            "keywords": [
+                "hashing",
+                "password"
+            ],
+            "time": "2013-09-10 15:32:56"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f72392d0e6eb855118f5a84e89ac2d257c704abd",
+                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "doctrine/couchdb": "dev-master",
+                "mlehner/gelf-php": "1.0.*",
+                "raven/raven": "0.5.*"
+            },
+            "suggest": {
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2013-07-28 22:38:30"
+        },
         {
             "name": "nette/nette",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/nette.git",
-                "reference": "367400f7d426e75bb2aa652aa7c4fb5fbfde9aeb"
+                "reference": "720d7901a3c00c000ccb1b7759f19af07c0c6526"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/nette/zipball/367400f7d426e75bb2aa652aa7c4fb5fbfde9aeb",
-                "reference": "367400f7d426e75bb2aa652aa7c4fb5fbfde9aeb",
+                "url": "https://api.github.com/repos/nette/nette/zipball/720d7901a3c00c000ccb1b7759f19af07c0c6526",
+                "reference": "720d7901a3c00c000ccb1b7759f19af07c0c6526",
                 "shasum": ""
             },
             "require": {
@@ -77,82 +304,69 @@
                 "neon",
                 "templating"
             ],
-            "time": "2013-05-06 02:04:56"
+            "time": "2013-10-28 13:47:57"
         },
         {
-            "name": "ruflin/elastica",
-            "version": "dev-master",
+            "name": "psr/log",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ruflin/Elastica.git",
-                "reference": "f848d22d0d400510e7c6f7f536c49ffe52ca5bd9"
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/f848d22d0d400510e7c6f7f536c49ffe52ca5bd9",
-                "reference": "f848d22d0d400510e7c6f7f536c49ffe52ca5bd9",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "munkie/elasticsearch-thrift-php": "1.4.*",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "suggest": {
-                "munkie/elasticsearch-thrift-php": "Allow using thrift transport"
-            },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.20.5.x-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Elastica": "lib/",
-                    "Elastica\\Test": "test/lib/"
+                    "Psr\\Log\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache 2.0"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Nicolas Ruflin",
-                    "homepage": "http://ruflin.com/"
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
-            "description": "Elasticsearch Client",
-            "homepage": "http://ruflin.github.com/Elastica/",
+            "description": "Common interface for logging libraries",
             "keywords": [
-                "client",
-                "search"
+                "log",
+                "psr",
+                "psr-3"
             ],
-            "time": "2013-04-28 16:32:14"
+            "time": "2012-12-21 11:40:51"
         },
         {
             "name": "symfony/console",
-            "version": "dev-master",
+            "version": "v2.3.6",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "2c29086a53686d9dcb11353b9c15f946808ebe04"
+                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/2c29086a53686d9dcb11353b9c15f946808ebe04",
-                "reference": "2c29086a53686d9dcb11353b9c15f946808ebe04",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/f880062d56edefb25b36f2defa65aafe65959dc7",
+                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/event-dispatcher": ">=2.1,<3.0"
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
             },
             "type": "library",
             "extra": {
@@ -181,7 +395,61 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-06 08:44:35"
+            "time": "2013-09-25 06:04:15"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v2.3.6",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/dependency-injection": "~2.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-09-19 09:45:20"
         }
     ],
     "packages-dev": [
@@ -191,19 +459,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "dd4f7e25ff6175b598cbc3462ca13a411e3c27f4"
+                "reference": "4f46271816885ed38e8d55b9d3d9fa37182cd312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/dd4f7e25ff6175b598cbc3462ca13a411e3c27f4",
-                "reference": "dd4f7e25ff6175b598cbc3462ca13a411e3c27f4",
+                "url": "https://api.github.com/repos/nette/tester/zipball/4f46271816885ed38e8d55b9d3d9fa37182cd312",
+                "reference": "4f46271816885ed38e8d55b9d3d9fa37182cd312",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "bin": [
-                "Tester/tester"
+                "Tester/tester",
+                "Tester/coverage-report"
             ],
             "type": "library",
             "autoload": {
@@ -234,7 +503,7 @@
                 "testing",
                 "unit"
             ],
-            "time": "2013-04-25 13:48:02"
+            "time": "2013-09-13 12:50:22"
         }
     ],
     "aliases": [
@@ -243,12 +512,14 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "nette/nette": 20,
-        "symfony/console": 20,
-        "ruflin/elastica": 20,
+        "bazo/nette-console-extension": 20,
+        "bazo/nette-monolog-extension": 20,
+        "bazo/nette-mediator-extension": 20,
+        "ircmaxell/password-compat": 20,
         "nette/tester": 20
     },
     "platform": {
-        "php": ">= 5.3.0"
+        "php": ">= 5.4.0"
     },
     "platform-dev": [
 

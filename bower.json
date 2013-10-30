@@ -1,0 +1,9 @@
+{
+	"name": "sandbox",
+	"dependencies": {
+		"bootstrap": "*",
+		"font-awesome": "*",
+		"jquery": "*",
+		"requirejs": "*"
+	}
+}

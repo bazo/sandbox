@@ -1,0 +1,8 @@
+extensions:
+	console: Bazo\Console\DI\ConsoleExtension
+	monolog: Bazo\Monolog\DI\MonologExtension
+	mediator: Bazo\Mediator\DI\MediatorExtension
+
+console:
+	name: Sandbox CLI
+	version: 0.1.0
