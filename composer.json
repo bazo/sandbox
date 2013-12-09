@@ -7,7 +7,8 @@
 		"bazo/nette-console-extension": "@dev",
 		"bazo/nette-monolog-extension": "@dev",
 		"bazo/nette-mediator-extension": "@dev",
-		"ircmaxell/password-compat": "@dev"
+		"bazo/nette-chain-logger-extension": "dev-master",
+		"bazo/nette-newrelic-extension": "dev-master"
 	},
 	"require-dev": {
 		"nette/tester": "@dev"

@@ -3,8 +3,52 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0b933fa4f78c78d29524a9e547fb2777",
+    "hash": "fec312f76d59cf7969536c08409a9cc5",
     "packages": [
+        {
+            "name": "bazo/nette-chain-logger-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazo/nette-chain-logger-extension.git",
+                "reference": "58f6539300cae7868500458ce1ff634d93956856"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazo/nette-chain-logger-extension/zipball/58f6539300cae7868500458ce1ff634d93956856",
+                "reference": "58f6539300cae7868500458ce1ff634d93956856",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0"
+            },
+            "suggest": {
+                "bazo/nette-monolog-extension": "@dev",
+                "bazo/nette-watchdog-extension": "@dev"
+            },
+            "type": "nette-addon",
+            "autoload": {
+                "psr-0": {
+                    "Bazo": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Martin Bažík",
+                    "email": "martin@bazo.sk",
+                    "homepage": "http://bazo.sk"
+                }
+            ],
+            "description": "Nette chain logger extension",
+            "homepage": "https://github.com/bazo/nette-chain-logger-extension",
+            "keywords": [
+                "chain logger",
+                "extension",
+                "nette"
+            ],
+            "time": "2013-10-30 21:33:26"
+        },
         {
             "name": "bazo/nette-console-extension",
             "version": "dev-master",
@@ -95,12 +139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bazo/nette-monolog-extension.git",
-                "reference": "b18f804881155812efbe55a54591495714dad262"
+                "reference": "390abf61759007341b4b2789ac46b75e885a53b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bazo/nette-monolog-extension/zipball/b18f804881155812efbe55a54591495714dad262",
-                "reference": "b18f804881155812efbe55a54591495714dad262",
+                "url": "https://api.github.com/repos/bazo/nette-monolog-extension/zipball/390abf61759007341b4b2789ac46b75e885a53b3",
+                "reference": "390abf61759007341b4b2789ac46b75e885a53b3",
                 "shasum": ""
             },
             "require": {
@@ -129,59 +173,61 @@
                 "monolog",
                 "nette"
             ],
-            "time": "2013-10-18 14:17:39"
+            "time": "2013-10-30 22:32:11"
         },
         {
-            "name": "ircmaxell/password-compat",
+            "name": "bazo/nette-newrelic-extension",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ircmaxell/password_compat.git",
-                "reference": "1f482f79b9c336b1f658eb08d7bbf2b9901d9aee"
+                "url": "https://github.com/bazo/nette-newrelic-extension.git",
+                "reference": "eef852196fb9f31c6a09c4521a4f1522406a9c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/1f482f79b9c336b1f658eb08d7bbf2b9901d9aee",
-                "reference": "1f482f79b9c336b1f658eb08d7bbf2b9901d9aee",
+                "url": "https://api.github.com/repos/bazo/nette-newrelic-extension/zipball/eef852196fb9f31c6a09c4521a4f1522406a9c36",
+                "reference": "eef852196fb9f31c6a09c4521a4f1522406a9c36",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "lib/password.php"
-                ]
+                "psr-0": {
+                    "Bazo": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
-                    "name": "Anthony Ferrara",
-                    "email": "ircmaxell@php.net",
-                    "homepage": "http://blog.ircmaxell.com"
+                    "name": "Martin Bažík",
+                    "email": "martin@bazo.sk",
+                    "homepage": "http://bazo.sk"
                 }
             ],
-            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
-            "homepage": "https://github.com/ircmaxell/password_compat",
+            "description": "Nette New Relic extension",
+            "homepage": "https://github.com/bazo/nette-newrelic-extension",
             "keywords": [
-                "hashing",
-                "password"
+                "log",
+                "logging",
+                "nette",
+                "new relic"
             ],
-            "time": "2013-09-10 15:32:56"
+            "time": "2013-12-08 11:06:22"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd"
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f72392d0e6eb855118f5a84e89ac2d257c704abd",
-                "reference": "f72392d0e6eb855118f5a84e89ac2d257c704abd",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6225b22de9dcf36546be3a0b2fa8e3d986153f57",
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57",
                 "shasum": ""
             },
             "require": {
@@ -189,21 +235,26 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "aws/aws-sdk-php": "~2.4.8",
                 "doctrine/couchdb": "dev-master",
                 "mlehner/gelf-php": "1.0.*",
-                "raven/raven": "0.5.*"
+                "phpunit/phpunit": "~3.7.0",
+                "raven/raven": "0.5.*",
+                "ruflin/elastica": "0.90.*"
             },
             "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "raven/raven": "Allow sending log messages to a Sentry server"
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -230,7 +281,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-07-28 22:38:30"
+            "time": "2013-11-14 19:48:31"
         },
         {
             "name": "nette/nette",
@@ -238,12 +289,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/nette.git",
-                "reference": "720d7901a3c00c000ccb1b7759f19af07c0c6526"
+                "reference": "e5213455dbe69c5db1e39743fb3d391575bc4424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/nette/zipball/720d7901a3c00c000ccb1b7759f19af07c0c6526",
-                "reference": "720d7901a3c00c000ccb1b7759f19af07c0c6526",
+                "url": "https://api.github.com/repos/nette/nette/zipball/e5213455dbe69c5db1e39743fb3d391575bc4424",
+                "reference": "e5213455dbe69c5db1e39743fb3d391575bc4424",
                 "shasum": ""
             },
             "require": {
@@ -304,7 +355,7 @@
                 "neon",
                 "templating"
             ],
-            "time": "2013-10-28 13:47:57"
+            "time": "2013-12-05 15:46:51"
         },
         {
             "name": "psr/log",
@@ -346,17 +397,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.6",
+            "version": "v2.4.0",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7"
+                "reference": "3c1496ae96d24ccc6c340fcc25f71d7a1ab4c12c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/f880062d56edefb25b36f2defa65aafe65959dc7",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/3c1496ae96d24ccc6c340fcc25f71d7a1ab4c12c",
+                "reference": "3c1496ae96d24ccc6c340fcc25f71d7a1ab4c12c",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +422,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -395,21 +446,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-25 06:04:15"
+            "time": "2013-11-27 09:10:40"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.3.6",
+            "version": "v2.4.0",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9"
+                "reference": "acd1707236f6eb96fbb8d58f63d289b72ebc2f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
-                "reference": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/acd1707236f6eb96fbb8d58f63d289b72ebc2f6e",
+                "reference": "acd1707236f6eb96fbb8d58f63d289b72ebc2f6e",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +476,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -449,7 +500,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-19 09:45:20"
+            "time": "2013-12-03 14:52:22"
         }
     ],
     "packages-dev": [
@@ -459,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "4f46271816885ed38e8d55b9d3d9fa37182cd312"
+                "reference": "b1bc89b634376154214552d3e984364e24855573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/4f46271816885ed38e8d55b9d3d9fa37182cd312",
-                "reference": "4f46271816885ed38e8d55b9d3d9fa37182cd312",
+                "url": "https://api.github.com/repos/nette/tester/zipball/b1bc89b634376154214552d3e984364e24855573",
+                "reference": "b1bc89b634376154214552d3e984364e24855573",
                 "shasum": ""
             },
             "require": {
@@ -503,7 +554,7 @@
                 "testing",
                 "unit"
             ],
-            "time": "2013-09-13 12:50:22"
+            "time": "2013-11-18 00:03:02"
         }
     ],
     "aliases": [
@@ -515,7 +566,8 @@
         "bazo/nette-console-extension": 20,
         "bazo/nette-monolog-extension": 20,
         "bazo/nette-mediator-extension": 20,
-        "ircmaxell/password-compat": 20,
+        "bazo/nette-chain-logger-extension": 20,
+        "bazo/nette-newrelic-extension": 20,
         "nette/tester": 20
     },
     "platform": {

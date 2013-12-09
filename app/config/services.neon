@@ -3,3 +3,17 @@ services:
 	#routes
 	routerFactory: App\RouterFactory
 	router: @routerFactory::createRouter
+
+	- Components\Factories\FormFactory
+	- Services\DummyTranslator
+
+	#logging
+	defaultLogger:
+		class: Nette\Diagnostics\Logger
+		tags: ['logger']
+
+	pathsProvider:
+		class: Services\PathsProvider
+		setup:
+			- addPath(appDir, %appDir%)
+			- addPath(templates, %appDir%/templates)

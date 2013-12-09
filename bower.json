@@ -4,6 +4,7 @@
 		"bootstrap": "*",
 		"font-awesome": "*",
 		"jquery": "*",
-		"requirejs": "*"
+		"requirejs": "*",
+		"lesshat": "*"
 	}
 }

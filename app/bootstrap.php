@@ -42,7 +42,7 @@ $configurator->addConfig(__DIR__ . '/config/config.neon');
 $localConfig = __DIR__ . '/config/config.local.neon';
 
 if(file_exists($localConfig)) {
-	$configurator->addConfig();
+	$configurator->addConfig($localConfig);
 }
 $container = $configurator->createContainer();
 

@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+// Let bootstrap create Dependency Injection container.
+$configurator = require __DIR__ . '/app/bootstrap.php';
+$configurator->addConfig(__DIR__.'/app/config/console.neon');
+$container = $configurator->createContainer();
+// Run application.
+$container->application->run();
+
+//workaraound for kdyby redis panel
+Nette\Diagnostics\Debugger::getBlueScreen();
+Nette\Diagnostics\Debugger::getBar();
+
+// Run console
+if (PHP_SAPI === 'cli') {
+	$container->console->run();
+}

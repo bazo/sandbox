@@ -1,0 +1,9 @@
+nette:
+	session:
+		autoStart: smart
+		expiration: '+365 days'
+
+	application:
+		errorPresenter: Error
+		mapping:
+			*: App\*Module\*Presenter

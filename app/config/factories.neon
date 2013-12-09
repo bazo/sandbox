@@ -1,0 +1,5 @@
+factories:
+
+	loginFormFactory:
+		class: Components\LoginForm
+		implement: Components\Factories\ILoginFormFactory

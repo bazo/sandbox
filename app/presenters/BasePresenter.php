@@ -2,15 +2,13 @@
 
 namespace App;
 
-use Nette;
+use Nette\Application\UI\Presenter;
 
 
 /**
- * Base presenter for all application presenters.
- * 
  * @author Martin Bažík <martin@bazo.sk>
  */
-abstract class BasePresenter extends Nette\Application\UI\Presenter
+abstract class BasePresenter extends Presenter
 {
 
 }

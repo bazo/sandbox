@@ -1,0 +1,15 @@
+{form form class => "form-signin"}
+	<h2 class="form-signin-heading">Sign in</h2>
+
+	<div class="alert alert-danger alert-dismissable" n:foreach="$form->getAllErrors() as $error">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<strong>Error!</strong> {$error}
+	</div>
+
+	<input n:name="email" type="text" class="form-control" placeholder="Email" required autofocus>
+	<input n:name="password" type="password" class="form-control" placeholder="Password" required>
+	<label class="checkbox">
+		<input type="checkbox" value="remember-me"> Remember me on this computer
+	</label>
+	<button n:name="btnSubmit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+{/form}

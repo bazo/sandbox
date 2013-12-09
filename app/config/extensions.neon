@@ -2,7 +2,13 @@ extensions:
 	console: Bazo\Console\DI\ConsoleExtension
 	monolog: Bazo\Monolog\DI\MonologExtension
 	mediator: Bazo\Mediator\DI\MediatorExtension
+	chainLogger: Bazo\ChainLogger\DI\ChainLoggerExtension
+	newrelic: Bazo\NewRelic\DI\NewRelicExtension
 
 console:
-	name: Sandbox CLI
+	name: %app.name% CLI
 	version: 0.1.0
+
+newrelic:
+	appName: %app.name%
+	useLogger: FALSE

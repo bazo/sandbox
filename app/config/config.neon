@@ -4,27 +4,11 @@
 # If you don't protect this directory from direct web access, anybody will be able to see your passwords.
 # http://nette.org/security-warning
 #
-parameters:
-	app:
-		name: sandbox
-	
-
-php:
-	date.timezone: Europe/Bratislava
-	# session.save_path: "%tempDir%/sessions"
-	# zlib.output_compression: yes
-
-nette:
-	session:
-		autoStart: smart
-		expiration: '+365 days'
-
-	application:
-		errorPresenter: Error
-		mapping:
-			*: App\*Module\*Presenter
-
 includes:
+	- php.neon
+	- nette.neon
+	- parameters.neon
 	- services.neon
+	- factories.neon
 	- extensions.neon
 	- console.neon
