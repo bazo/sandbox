@@ -1,0 +1,13 @@
+shared_folders:
+	- temp
+	- log
+	- app/local
+hooks:
+	after_receive:
+		- "composer install --optimize-autoloader --profile -v -n"
+		- "bower install"
+	before_deploy:
+	after_deploy:
+		#- "php cli odm:generate:proxies"
+		#- "php cli odm:generate:hydrators"
+		- "sudo service php5-fpm restart"

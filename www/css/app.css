@@ -435,8 +435,6 @@ img {
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -2429,13 +2427,7 @@ output {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -moz-transition: border-color ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 /* line 817, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
@@ -2445,9 +2437,6 @@ output {
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0px 1px 1px rgba(0,0,0,.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
 }
 /* line 57, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\0000357}}
@@ -2469,26 +2458,6 @@ output {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\0000361}}
 .form-control::-webkit-input-placeholder {
   color: #999999;
-}
-/* line 1797, D:\www\sandbox\www\vendor\lesshat\build\lesshat.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/lesshat\/build\/lesshat\.less}line{font-family:\000031797}}
-.form-control::-webkit-input-placeholder {
-  color: #ff69b4;
-}
-/* line 1800, D:\www\sandbox\www\vendor\lesshat\build\lesshat.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/lesshat\/build\/lesshat\.less}line{font-family:\000031800}}
-.form-control:-moz-placeholder {
-  color: #ff69b4;
-}
-/* line 1803, D:\www\sandbox\www\vendor\lesshat\build\lesshat.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/lesshat\/build\/lesshat\.less}line{font-family:\000031803}}
-.form-control::-moz-placeholder {
-  color: #ff69b4;
-}
-/* line 1806, D:\www\sandbox\www\vendor\lesshat\build\lesshat.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/lesshat\/build\/lesshat\.less}line{font-family:\000031806}}
-.form-control:-ms-input-placeholder {
-  color: #ff69b4;
 }
 /* line 147, D:\www\sandbox\www\vendor\bootstrap\less\forms.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/forms\.less}line{font-family:\00003147}}
@@ -2633,9 +2602,6 @@ textarea.input-lg {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 788, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003788}}
@@ -2643,9 +2609,6 @@ textarea.input-lg {
   border-color: #66512c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #c0a16b;
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #c0a16b;
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #c0a16b;
 }
 /* line 795, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003795}}
@@ -2670,9 +2633,6 @@ textarea.input-lg {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 788, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003788}}
@@ -2680,9 +2640,6 @@ textarea.input-lg {
   border-color: #843534;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #ce8483;
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #ce8483;
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #ce8483;
 }
 /* line 795, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003795}}
@@ -2707,9 +2664,6 @@ textarea.input-lg {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 788, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003788}}
@@ -2717,9 +2671,6 @@ textarea.input-lg {
   border-color: #2b542c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #67b168;
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #67b168;
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 6px #67b168;
 }
 /* line 795, D:\www\sandbox\www\vendor\bootstrap\less\mixins.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/mixins\.less}line{font-family:\00003795}}
@@ -2851,10 +2802,10 @@ textarea.input-lg {
   font-size: 14px;
   line-height: 1.428571429;
   border-radius: 4px;
-  -o-user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -o-user-select: none;
   user-select: none;
 }
 /* line 22, D:\www\sandbox\www\vendor\bootstrap\less\buttons.less */
@@ -2879,9 +2830,6 @@ textarea.input-lg {
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  -webkit-box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
 }
 /* line 39, D:\www\sandbox\www\vendor\bootstrap\less\buttons.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/buttons\.less}line{font-family:\0000339}}
@@ -2890,12 +2838,9 @@ textarea.input-lg {
 fieldset[disabled] .btn {
   cursor: not-allowed;
   pointer-events: none;
-  filter: alpha(opacity=65);
-  -webkit-opacity: 0.65;
-  -moz-opacity: 0.65;
   opacity: 0.65;
+  filter: alpha(opacity=65);
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 53, D:\www\sandbox\www\vendor\bootstrap\less\buttons.less */
@@ -3220,7 +3165,6 @@ fieldset[disabled] .btn-info.active {
 fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 94, D:\www\sandbox\www\vendor\bootstrap\less\buttons.less */
@@ -3297,8 +3241,6 @@ input[type="button"].btn-block {
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
-  -moz-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 /* line 13, D:\www\sandbox\www\vendor\bootstrap\less\component-animations.less */
@@ -3323,8 +3265,6 @@ input[type="button"].btn-block {
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
-  -moz-transition: height 0.35s ease;
-  -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
 @font-face {
@@ -4392,9 +4332,6 @@ input[type="button"].btn-block {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
 }
 /* line 49, D:\www\sandbox\www\vendor\bootstrap\less\dropdowns.less */
@@ -4687,15 +4624,11 @@ input[type="button"].btn-block {
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  -webkit-box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.125);
 }
 /* line 124, D:\www\sandbox\www\vendor\bootstrap\less\button-groups.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/button-groups\.less}line{font-family:\00003124}}
 .btn-group.open .dropdown-toggle.btn-link {
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 131, D:\www\sandbox\www\vendor\bootstrap\less\button-groups.less */
@@ -5661,9 +5594,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.1);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -5720,7 +5650,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-top: 0;
     padding-bottom: 0;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
   }
   /* line 309, D:\www\sandbox\www\vendor\bootstrap\less\navbar.less */
@@ -6469,8 +6398,6 @@ a.list-group-item.active > .badge,
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 /* line 17, D:\www\sandbox\www\vendor\bootstrap\less\thumbnails.less */
@@ -6641,9 +6568,6 @@ a.thumbnail.active {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
 /* line 37, D:\www\sandbox\www\vendor\bootstrap\less\progress-bars.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/progress-bars\.less}line{font-family:\0000337}}
@@ -6658,12 +6582,7 @@ a.thumbnail.active {
   background-color: #428bca;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
-  -moz-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 /* line 51, D:\www\sandbox\www\vendor\bootstrap\less\progress-bars.less */
@@ -6677,8 +6596,6 @@ a.thumbnail.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/progress-bars\.less}line{font-family:\0000357}}
 .progress.active .progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -moz-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
 /* line 66, D:\www\sandbox\www\vendor\bootstrap\less\progress-bars.less */
@@ -6870,9 +6787,6 @@ a.list-group-item.active:focus .list-group-item-text {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 16, D:\www\sandbox\www\vendor\bootstrap\less\panels.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/panels\.less}line{font-family:\0000316}}
@@ -7217,9 +7131,6 @@ a.list-group-item.active:focus .list-group-item-text {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 15, D:\www\sandbox\www\vendor\bootstrap\less\wells.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/wells\.less}line{font-family:\0000315}}
@@ -7248,10 +7159,8 @@ a.list-group-item.active:focus .list-group-item-text {
   line-height: 1;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
-  filter: alpha(opacity=20);
-  -webkit-opacity: 0.2;
-  -moz-opacity: 0.2;
   opacity: 0.2;
+  filter: alpha(opacity=20);
 }
 /* line 15, D:\www\sandbox\www\vendor\bootstrap\less\close.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/close\.less}line{font-family:\0000315}}
@@ -7260,10 +7169,8 @@ a.list-group-item.active:focus .list-group-item-text {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
-  filter: alpha(opacity=50);
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
   opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 /* line 26, D:\www\sandbox\www\vendor\bootstrap\less\close.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/close\.less}line{font-family:\0000326}}
@@ -7298,11 +7205,6 @@ button.close {
   -webkit-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
   transform: translate(0, -25%);
-  -webkit-transform: translate(0px, -25%);
-  -moz-transform: translate(0px, -25%);
-  -o-transform: translate(0px, -25%);
-  -ms-transform: translate(0px, -25%);
-  transform: translate(0px, -25%);
   -webkit-transition: -webkit-transform 0.3s ease-out;
   -moz-transition: -moz-transform 0.3s ease-out;
   -o-transition: -o-transform 0.3s ease-out;
@@ -7314,11 +7216,6 @@ button.close {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
 }
 /* line 36, D:\www\sandbox\www\vendor\bootstrap\less\modals.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/modals\.less}line{font-family:\0000336}}
@@ -7338,9 +7235,6 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: none;
 }
@@ -7358,18 +7252,14 @@ button.close {
 /* line 66, D:\www\sandbox\www\vendor\bootstrap\less\modals.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/modals\.less}line{font-family:\0000366}}
 .modal-backdrop.fade {
-  filter: alpha(opacity=0);
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
   opacity: 0;
+  filter: alpha(opacity=0);
 }
 /* line 67, D:\www\sandbox\www\vendor\bootstrap\less\modals.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/modals\.less}line{font-family:\0000367}}
 .modal-backdrop.in {
-  filter: alpha(opacity=50);
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
   opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 /* line 72, D:\www\sandbox\www\vendor\bootstrap\less\modals.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/modals\.less}line{font-family:\0000372}}
@@ -7455,9 +7345,6 @@ button.close {
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
   }
 }
 /* line 7, D:\www\sandbox\www\vendor\bootstrap\less\tooltip.less */
@@ -7469,18 +7356,14 @@ button.close {
   visibility: visible;
   font-size: 12px;
   line-height: 1.4;
-  filter: alpha(opacity=0);
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
   opacity: 0;
+  filter: alpha(opacity=0);
 }
 /* line 16, D:\www\sandbox\www\vendor\bootstrap\less\tooltip.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/tooltip\.less}line{font-family:\0000316}}
 .tooltip.in {
-  filter: alpha(opacity=90);
-  -webkit-opacity: 0.9;
-  -moz-opacity: 0.9;
   opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 /* line 17, D:\www\sandbox\www\vendor\bootstrap\less\tooltip.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/tooltip\.less}line{font-family:\0000317}}
@@ -7612,9 +7495,6 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
 }
 /* line 26, D:\www\sandbox\www\vendor\bootstrap\less\popovers.less */
@@ -7770,8 +7650,6 @@ button.close {
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
-  -moz-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
 /* line 22, D:\www\sandbox\www\vendor\bootstrap\less\carousel.less */
@@ -7837,10 +7715,8 @@ button.close {
   left: 0;
   bottom: 0;
   width: 15%;
-  filter: alpha(opacity=50);
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
   opacity: 0.5;
+  filter: alpha(opacity=50);
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -7871,10 +7747,8 @@ button.close {
   outline: none;
   color: #ffffff;
   text-decoration: none;
-  filter: alpha(opacity=90);
-  -webkit-opacity: 0.9;
-  -moz-opacity: 0.9;
   opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 /* line 101, D:\www\sandbox\www\vendor\bootstrap\less\carousel.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/sandbox\/www\/vendor\/bootstrap\/less\/carousel\.less}line{font-family:\00003101}}

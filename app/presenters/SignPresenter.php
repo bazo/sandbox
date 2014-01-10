@@ -7,8 +7,6 @@ use Components\Factories\ILoginFormFactory;
 
 
 /**
- * Sign in/out presenters.
- *
  * @author Martin Bažík <martin@bazo.sk>
  */
 class SignPresenter extends BasePresenter

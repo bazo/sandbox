@@ -9,6 +9,5 @@ includes:
 	- nette.neon
 	- parameters.neon
 	- services.neon
-	- factories.neon
 	- extensions.neon
 	- console.neon

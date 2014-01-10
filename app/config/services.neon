@@ -17,3 +17,8 @@ services:
 		setup:
 			- addPath(appDir, %appDir%)
 			- addPath(templates, %appDir%/templates)
+
+	#factories
+	loginFormFactory:
+		class: Components\LoginForm
+		implement: Components\Factories\ILoginFormFactory

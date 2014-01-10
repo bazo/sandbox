@@ -14,5 +14,5 @@ Nette\Diagnostics\Debugger::getBar();
 
 // Run console
 if (PHP_SAPI === 'cli') {
-	$container->console->run();
+	$container->getService('console')->run();
 }

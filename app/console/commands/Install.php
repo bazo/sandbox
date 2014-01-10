@@ -20,8 +20,7 @@ class Install extends Console\Command\Command
 
 	protected function execute(Console\Input\InputInterface $input, Console\Output\OutputInterface $output)
 	{
-		$output->writeln('<info>Installing chillout</info>');
-		$application = $this->getApplication();
+		$output->writeln('<info>Installing application.</info>');
 
 
 

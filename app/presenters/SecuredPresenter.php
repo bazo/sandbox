@@ -3,8 +3,6 @@
 namespace App;
 
 /**
- * Secured presenter
- *
  * @author Martin Bažík <martin@bazo.sk>
  */
 abstract class SecuredPresenter extends BasePresenter
